@@ -35,7 +35,7 @@ public class Main {
                 }
                 String fileName = file.getName();
                 fileName = fileName.substring(0,fileName.lastIndexOf("."));
-                Doc2Pdf.doc2pdf(fromDir,outDir + File.separator + fileName + "pdf");
+                Doc2Pdf.doc2pdf(fromDir,outDir + File.separator + fileName + ".pdf");
             }
         }
     }
